@@ -1,0 +1,19 @@
+.item{
+    width: 100% !important;
+    height: 30rem !important;
+    padding: 2rem 5rem;
+    color: #438a99 !important;
+    h4{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    li{
+        font-size: 20px !important;
+        list-style-type:disc;
+        line-height: 2rem;
+        span{
+            font-weight: bold;
+        }
+    }
+    // background-color: #000 !important;
+}

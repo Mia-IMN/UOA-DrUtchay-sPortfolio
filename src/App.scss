@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lobster&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&display=swap');
+@import './Styles/Navbar';
+@import './Styles/Homepage';
+@import './Styles/About';
+@import './Styles/Projects';
+@import './Styles/Skills';
+@import './Styles/Slide';
+@import './Styles/Contact';
+
+*{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+.App{
+    width: 100%;
+    max-width: 1600px;
+    // height: 100vh;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    padding: 5rem 0 2rem;
+    color: #438a99;
+    // font-size: 18px !important;
+    font-family: "Taviraj", serif !important;
+    font-weight: bold !important;
+  }
